@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--<servlet>
+        <servlet-name>Sessions</servlet-name>
+        <servlet-class>Sessions</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sessions</servlet-name>
+        <url-pattern>/test-servlet</url-pattern>
+    </servlet-mapping> -->
+    <servlet>
+        <servlet-name>FirstJSP</servlet-name>
+        <jsp-file>/first.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FirstJSP</servlet-name>
+        <url-pattern>/hello-world-jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TestJSP</servlet-name>
+        <jsp-file>/TestJSP.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestJSP</servlet-name>
+        <url-pattern>/test-jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>Cookies.SetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/set-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>Cookies.GetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/get-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <servlet-class>Cookies.DeleteCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <url-pattern>/delete-cookies</url-pattern>
+    </servlet-mapping>
+
+</web-app>

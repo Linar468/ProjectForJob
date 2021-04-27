@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test name="ChromeTest">
+        <parameter name="portNO" value="4546"></parameter>
+        <parameter name="appURL" value="https://www.facebook.com"></parameter>
+        <classes>
+            <class name="seldocker.CrossBrowser"></class>
+        </classes>
+    </test>
+    <test name="FirefoxTest">
+        <parameter name="portNO" value="4547"></parameter>
+        <parameter name="appURL" value="https://www.facebook.com"></parameter>
+        <classes>
+            <class name="seldocker.CrossBrowser"></class>
+        </classes>
+    </test>
+</suite>

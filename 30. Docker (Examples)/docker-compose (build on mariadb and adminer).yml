@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+   db:
+      build: ./db
+      restart: always
+      environment:
+            MYSQL_ROOT_PASSWORD:123456
+   adminer:
+      build: ./adminer
+      restart: always
+      ports:
+           -6080:8080

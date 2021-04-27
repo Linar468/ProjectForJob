@@ -1,0 +1,15 @@
+version: '3'
+services:
+   mysqldev:
+      image: mysql:8.0.2
+      environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: blogapp
+      ports:
+           - "3308:3306"
+   client:
+      image: mysql:8.0.2
+      depends_on:
+           - mysqldev
+      command: mysql -uroot -ppassword -hmysqldev blogapp 
+      

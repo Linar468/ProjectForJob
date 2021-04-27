@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SimpleTest" time="21.335" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Linar\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.2\surefire-booter-2.22.2.jar;C:\Users\Linar\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar;C:\Users\Linar\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar;C:\Users\Linar\Desktop\Allure\target\test-classes;C:\Users\Linar\Desktop\Allure\target\classes;C:\Users\Linar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\Linar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Linar\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Linar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Linar\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Linar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\Linar\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.0\webdrivermanager-3.8.0.jar;C:\Users\Linar\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Linar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Linar\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Linar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Linar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Linar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Linar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Linar\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Linar\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Linar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Linar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Linar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Linar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Linar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Linar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Linar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Linar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Linar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Linar\.m2\repository\ch\qos\logback\logback-classic\1.1.1\logback-classic-1.1.1.jar;C:\Users\Linar\.m2\repository\ch\qos\logback\logback-core\1.1.1\logback-core-1.1.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Linar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Linar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Linar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Linar\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Linar\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Linar\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\Linar\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\2.22.2\surefire-junit-platform-2.22.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Linar\AppData\Local\Temp\surefire26920454496310504 2021-01-04T22-02-17_579-jvmRun1 surefire8812388429390628682tmp surefire_011521481768607831124tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Linar\Desktop\Allure\target\test-classes;C:\Users\Linar\Desktop\Allure\target\classes;C:\Users\Linar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\Linar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Linar\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Linar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Linar\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Linar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\Linar\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.0\webdrivermanager-3.8.0.jar;C:\Users\Linar\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Linar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Linar\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Linar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Linar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Linar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Linar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Linar\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Linar\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Linar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Linar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Linar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Linar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Linar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Linar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Linar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Linar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Linar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Linar\.m2\repository\ch\qos\logback\logback-classic\1.1.1\logback-classic-1.1.1.jar;C:\Users\Linar\.m2\repository\ch\qos\logback\logback-core\1.1.1\logback-core-1.1.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Linar\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Linar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Linar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Linar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Linar\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Linar\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Linar\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\Linar\Desktop\Allure\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Linar"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Linar\Desktop\Allure"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="Linar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Linar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Linar\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="C:\Users\Linar\Desktop\Allure"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-11.0.9\bin;C:\Gradle\bin;C:\Users\Linar\AppData\Local\Microsoft\WindowsApps;C:\Users\Linar\.dotnet\tools;C:\dev\apache-maven-3.6.3\bin;C:\Users\Linar\.jdks\openjdk-15.0.1\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="loginClickWithUncorrectCredentials" classname="SimpleTest" time="14.21">
+    <error message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: headless chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0V3QR0S&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Linar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1f29126bfa92b67f4bb28cd7708b9111" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0V3QR0S', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Linar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f29126bfa92b67f4bb28cd7708b9111
+	at SimpleTest.start(SimpleTest.java:31)
+</error>
+    <system-out><![CDATA[22:02:25.914 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Removing preference chrome=87 (expired on 2021-01-03 20:57:20)
+22:02:25.946 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:26.175 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:26.176 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Users\\Linar\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:26.311 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:26.312 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:26.442 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: Version=87.0.4280.88
+22:02:26.444 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Removing preference chrome87=87.0.4280.88 (expired on 2021-01-03 20:57:20)
+22:02:26.446 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Getting driver version for chrome87 from online versions.properties
+22:02:26.657 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - Error reading version.properties, using local instead
+22:02:26.661 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver for chrome87 not found in online properties (using local version)
+22:02:26.662 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - The driver version for Google Chrome 87 is unknown ... trying with latest
+22:02:26.668 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE to get latest version of chromedriver (Этот хост неизвестен (chromedriver.storage.googleapis.com))
+22:02:26.674 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+22:02:26.678 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - There was an error managing chromedriver (latest version) (chromedriver.storage.googleapis.com) ... trying again using mirror
+22:02:26.693 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:26.897 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:26.898 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Users\\Linar\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:27.005 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:27.005 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:27.118 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: Version=87.0.4280.88
+22:02:27.121 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Getting driver version for chrome87 from online versions.properties
+22:02:27.121 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver for chrome87 not found in online properties (using local version)
+22:02:27.122 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - The driver version for Google Chrome 87 is unknown ... trying with latest
+22:02:27.127 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - Exception reading http://npm.taobao.org/mirrors/chromedriverLATEST_RELEASE to get latest version of chromedriver (Этот хост неизвестен (npm.taobao.org))
+22:02:27.184 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver (latest version) found in cache
+22:02:27.207 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Linar\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 18120
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 04, 2021 10:02:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginClickWithCorrectCredentials" classname="SimpleTest" time="6.93">
+    <error message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: headless chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0V3QR0S&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Linar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ed08b156f2a16560d5bddc216e31b56d" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0V3QR0S', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Linar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ed08b156f2a16560d5bddc216e31b56d
+	at SimpleTest.start(SimpleTest.java:31)
+</error>
+    <system-out><![CDATA[22:02:38.950 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:39.139 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:39.140 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Users\\Linar\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:39.283 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:39.284 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:39.387 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: Version=87.0.4280.88
+22:02:39.389 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Getting driver version for chrome87 from online versions.properties
+22:02:39.389 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver for chrome87 not found in online properties (using local version)
+22:02:39.390 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - The driver version for Google Chrome 87 is unknown ... trying with latest
+22:02:39.395 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE to get latest version of chromedriver (Этот хост неизвестен (chromedriver.storage.googleapis.com))
+22:02:39.398 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+22:02:39.400 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - There was an error managing chromedriver (latest version) (chromedriver.storage.googleapis.com) ... trying again using mirror
+22:02:39.409 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:39.522 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:39.523 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Users\\Linar\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:39.624 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: 
+22:02:39.625 [main] DEBUG io.github.bonigarcia.wdm.Shell - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+22:02:39.728 [main] DEBUG io.github.bonigarcia.wdm.Shell - Result: Version=87.0.4280.88
+22:02:39.730 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Getting driver version for chrome87 from online versions.properties
+22:02:39.730 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver for chrome87 not found in online properties (using local version)
+22:02:39.731 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - The driver version for Google Chrome 87 is unknown ... trying with latest
+22:02:39.735 [main] WARN  i.g.bonigarcia.wdm.WebDriverManager - Exception reading http://npm.taobao.org/mirrors/chromedriverLATEST_RELEASE to get latest version of chromedriver (Этот хост неизвестен (npm.taobao.org))
+22:02:39.739 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver (latest version) found in cache
+22:02:39.740 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Linar\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 22800
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 04, 2021 10:02:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

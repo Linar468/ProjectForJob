@@ -1,0 +1,7 @@
+help\PropertyFileRead.class
+steps\StepsDefinition.class
+steps\RunTest.class
+page\BasePage.class
+page\TaskSix.class
+page\Main.class
+test\TestBase.class

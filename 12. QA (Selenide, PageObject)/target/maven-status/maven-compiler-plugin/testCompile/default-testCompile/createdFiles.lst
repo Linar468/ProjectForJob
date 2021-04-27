@@ -1,0 +1,11 @@
+net\bugoff\selenide\steps\MainSteps.class
+net\bugoff\selenide\pages\Dresses.class
+net\bugoff\selenide\steps\TShirtSteps.class
+net\bugoff\selenide\steps\WomenSteps.class
+net\bugoff\selenide\steps\DressesSteps.class
+net\bugoff\selenide\runner\RunTest.class
+net\bugoff\selenide\pages\Main.class
+net\bugoff\selenide\steps\Hooks.class
+net\bugoff\selenide\pages\Women.class
+net\bugoff\selenide\pages\TShirts.class
+net\bugoff\selenide\pages\General.class

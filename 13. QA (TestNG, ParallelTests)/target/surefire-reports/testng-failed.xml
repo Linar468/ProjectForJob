@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="TestNg2">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestNg2 -->
+      <class name="TestNg3">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- TestNg3 -->
+      <class name="TestNG">
+        <methods>
+          <include name="calculatepercent"/>
+          <include name="closeBrowser"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- TestNG -->
+      <class name="Testng4">
+        <methods>
+          <include name="test7"/>
+          <include name="test10"/>
+          <include name="test4"/>
+          <include name="test9"/>
+          <include name="test6"/>
+          <include name="test3"/>
+          <include name="setup"/>
+          <include name="test5"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="tearDown"/>
+          <include name="test8"/>
+        </methods>
+      </class> <!-- Testng4 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

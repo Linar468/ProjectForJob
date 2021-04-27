@@ -1,0 +1,326 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4015845299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.initialization(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "I want to login with correct credentials",
+        "description": "",
+        "id": "i-want-to-test-task-six;i-want-to-login-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1115340799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1827521400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I go to main page",
+            "match": {
+              "location": "StepsDefinition.iGoToMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1021113700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select \"6\" task",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinition.iSelectTask(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1679424000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login as \"tester\" with password \"123-xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester",
+                  "offset": 12
+                },
+                {
+                  "val": "123-xyz",
+                  "offset": 35
+                }
+              ],
+              "location": "StepsDefinition.iLoginAsWithPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199748700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the link to download file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "see",
+                  "offset": 9
+                }
+              ],
+              "location": "StepsDefinition.iShouldSeeTheLinkToDownloadFile(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2044125299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.initialization(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "I want to login with wrong credentials",
+        "description": "",
+        "id": "i-want-to-test-task-six;i-want-to-login-with-wrong-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1244490700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1567337300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go to main page",
+            "match": {
+              "location": "StepsDefinition.iGoToMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 722391300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"6\" task",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinition.iSelectTask(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 967604099,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I login as \"bugubugi\" with password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bugubugi",
+                  "offset": 12
+                },
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "StepsDefinition.iLoginAsWithPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5071988000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should not see the link to download file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not see",
+                  "offset": 9
+                }
+              ],
+              "location": "StepsDefinition.iShouldSeeTheLinkToDownloadFile(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1962833700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.initialization(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "I want to login with wrong credentials",
+        "description": "",
+        "id": "i-want-to-test-task-six;i-want-to-login-with-wrong-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 832061001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1498332400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go to main page",
+            "match": {
+              "location": "StepsDefinition.iGoToMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 882635800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"6\" task",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinition.iSelectTask(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 992166400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I login as \"\" with password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 12
+                },
+                {
+                  "val": "123456",
+                  "offset": 29
+                }
+              ],
+              "location": "StepsDefinition.iLoginAsWithPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5038557600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should not see the link to download file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not see",
+                  "offset": 9
+                }
+              ],
+              "location": "StepsDefinition.iShouldSeeTheLinkToDownloadFile(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to test task six",
+    "description": "",
+    "id": "i-want-to-test-task-six",
+    "keyword": "Feature",
+    "uri": "task_six.feature"
+  }
+]

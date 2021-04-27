@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="37" failures="1" name="TestSuite" time="32.404" errors="0" skipped="36">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Linar\Desktop\IdeaProjects\SeleniumGrid"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Linar\Desktop\IdeaProjects\SeleniumGrid"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Linar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\dev\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-11.0.9\bin;C:\Gradle\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linar\AppData\Local\Microsoft\WindowsApps;C:\Users\Linar\.dotnet\tools;C:\dev\apache-maven-3.6.3\bin;C:\Users\Linar\.jdks\openjdk-15.0.1\bin;C:\Users\Linar\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\dev\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\dev\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Linar"/>
+    <property name="user.timezone" value="Asia/Irkutsk"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Linar"/>
+    <property name="java.class.path" value="C:\dev\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="maven.home" value="C:\dev\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestNG" name="launchapp" time="0.818">
+    <failure message="
+Parameter &apos;browser&apos; is required by BeforeTest on method launchapp but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method launchapp but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@22a67b4
+</system-out>
+  </testcase>
+  <testcase classname="TestNG" name="calculatepercent" time="0.856">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestNg2" name="test1" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestNg3" name="test1" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestNg3" name="test2" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestNg3" name="test3" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test1" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test10" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test2" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test3" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test4" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test5" time="0.872">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test6" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test7" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test8" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="setup" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="test9" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testng4" name="tearDown" time="0.887">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestNG" name="closeBrowser" time="0.887">
+    <skipped/>
+  </testcase>
+</testsuite>

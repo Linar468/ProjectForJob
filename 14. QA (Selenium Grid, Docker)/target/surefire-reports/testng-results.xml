@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-15T11:42:22 IRKT" name="Docker Grid" finished-at="2021-04-15T11:42:36 IRKT" duration-ms="13454">
+    <groups>
+    </groups>
+    <test started-at="2021-04-15T11:42:22 IRKT" name="Firefox" finished-at="2021-04-15T11:42:36 IRKT" duration-ms="13454">
+      <class name="seldocker.GridTest">
+        <test-method is-config="true" signature="startContainer()[pri:0, instance:seldocker.GridTest@4c12331b]" started-at="2021-04-15T11:41:56 IRKT" name="startContainer" finished-at="2021-04-15T11:42:22 IRKT" duration-ms="25817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startContainer -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@4c12331b]" started-at="2021-04-15T11:42:22 IRKT" name="setup" finished-at="2021-04-15T11:42:35 IRKT" duration-ms="12391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitle()[pri:0, instance:seldocker.GridTest@4c12331b]" started-at="2021-04-15T11:42:35 IRKT" name="getTitle" finished-at="2021-04-15T11:42:35 IRKT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seldocker.GridTest@4c12331b]" started-at="2021-04-15T11:42:35 IRKT" name="tearDown" finished-at="2021-04-15T11:42:36 IRKT" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopContainer()[pri:0, instance:seldocker.GridTest@4c12331b]" started-at="2021-04-15T11:42:36 IRKT" name="stopContainer" finished-at="2021-04-15T11:42:52 IRKT" duration-ms="16718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopContainer -->
+      </class> <!-- seldocker.GridTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Docker Grid -->
+</testng-results>

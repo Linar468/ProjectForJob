@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.bugoff.selenide.runner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.878 s - in net.bugoff.selenide.runner.RunTest
